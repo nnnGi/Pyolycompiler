@@ -68,4 +68,4 @@ if (1 == 1):
 </p>
    
 
-© Copyright @nnnGi (_nnn_) 2025 - 2025
+© Copyright @nnnGi (\_nnn_) 2025 - 2025
