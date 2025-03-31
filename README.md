@@ -30,10 +30,37 @@ respectively.
 <h3>How PyolyCompiler works</h3>
 <p>PyolyCompiler uses a parasite method both ways to let syntactically correct files in both languages run in both. The script used for the parasite is
 
-```1 // 1; """
+```
+1 // 1; """
 /*"""
 #*/ {jscontent in one line} /*
 {pycontent in multiple lines}
+#*/
+```
+**Syntax Highlighting**
+```python
+1 // 1; """
+/*"""
+#*/ console.log("Hello JS"); if (1 == 1) { console.log('1 == 1'); } /*
+print("Hello Python")
+
+a = input('Hello: ')
+
+if (1 == 1):
+    print(f'1 == 1 and a == {a}')
+#*/
+```
+
+```javascript
+1 // 1; """
+/*"""
+#*/ console.log("Hello JS"); if (1 == 1) { console.log('1 == 1'); } /*
+print("Hello Python")
+
+a = input('Hello: ')
+
+if (1 == 1):
+    print(f'1 == 1 and a == {a}')
 #*/
 ```
 
