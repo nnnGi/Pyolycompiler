@@ -26,6 +26,19 @@ respectively.
 <h4>Installation Requirements:</h4>
     - Node JS<br>
     - Python 3
+
+<h3>How PyolyCompiler works</h3>
+<p>PyolyCompiler uses a parasite method both ways to let syntactically correct files in both languages run in both. The script used for the parasite is
+
+```1 // 1; """
+/*"""
+#*/ {jscontent in one line} /*
+{pycontent in multiple lines}
+#*/
+```
+
+
+</p>
    
 
 © Copyright @nnnGi (_nnn_) 2025 - 2025
