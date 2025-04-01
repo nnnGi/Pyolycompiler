@@ -1,4 +1,4 @@
-# Pyolycompiler
+# Pyolycompiler (Python & Javascript)
 
 This PolyCompiler is inspired by https://github.com/evanzhoudev/polycompiler written in Node JS.
 This project is written in Python, and ultimately, the polyglot method used here is double comment parasite polyglot,
