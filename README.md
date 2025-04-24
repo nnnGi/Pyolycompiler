@@ -12,7 +12,7 @@ unlike the original, which used a combination of various methods.
 
 <h3>Running Programme Inside of Directory where Pyolycompiler's main.py is located</h3>
 
-```python3 main.py in.py in.js out.poly```
+```polycompile in.py in.js out.poly```
 
 <hr>
 
