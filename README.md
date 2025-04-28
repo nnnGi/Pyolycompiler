@@ -10,7 +10,7 @@ unlike the original, which used a combination of various methods.
     2) Download Script
 </p>
 
-<h3>Running Programme Inside of Directory where Pyolycompiler's main.py is located</h3>
+<h3>Usage</h3>
 
 ```polycompile in.py in.js out.poly```
 
